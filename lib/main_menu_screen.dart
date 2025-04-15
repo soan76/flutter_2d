@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'game_screen.dart';
 
 class MainMenuScreen extends StatelessWidget {
@@ -19,6 +20,17 @@ class MainMenuScreen extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
+                const Text(
+                  '진격의 윙맨',
+                  style: const TextStyle(
+                    fontFamily: 'NotoSansKR',
+                    fontSize: 90,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+                const SizedBox(height: 30),
+
                 ElevatedButton(
                   onPressed: () {
                     Navigator.pushReplacement(
