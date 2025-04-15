@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'logo_screen.dart';
 
 void main() {
@@ -15,5 +16,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const LogoScreen(),
     );
+    //염재현 실험
   }
 }
