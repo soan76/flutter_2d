@@ -20,7 +20,7 @@ class MainMenuScreen extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // 텍스트 추가
+                // 텍스트 추가 1
                 const Text(
                   '진격의 윙맨',
                   style: const TextStyle(

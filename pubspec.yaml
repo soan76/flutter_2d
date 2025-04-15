@@ -60,7 +60,7 @@ flutter:
     - assets/images/player2.png
     - assets/images/Logo.png
     - assets/images/MainMenu.png
-
+# 폰트
   fonts:
     - family: NotoSansKR
       fonts:
