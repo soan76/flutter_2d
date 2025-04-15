@@ -9,7 +9,6 @@ import 'player.dart';
 class GameWorld extends World {
   final Player player;
   GameWorld({required this.player});
-
   @override
   Future<void> onLoad() async {
     await add(player);
